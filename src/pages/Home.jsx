@@ -1,13 +1,8 @@
-import Header from "../components/Header"
-import Crud from "../components/Crud"
+import Layout from "./Layout"
+
+
 const Home = () => {
-  return (
-    <>
-    <Header />
-    <span className="p-8"></span>
-    <Crud />
-    </>
-  )
+  return ( <Layout />)
 }
 
 export default Home
